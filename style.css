@@ -73,3 +73,5 @@ header{position:sticky;top:0;z-index:50;background:rgba(7,7,7,.92);backdrop-filt
 @media(max-width:520px){
  .wrap{width:min(92%,430px)}.cards,.steps{grid-template-columns:1fr}.hero h1,.page h1{font-size:43px}.lead{font-size:16px}.hero-visual{min-height:285px}.hero-logo{width:230px}.service h2,.project h2{font-size:35px}.section{padding:60px 0}.wa{right:15px;bottom:15px}
 }
+
+.note{font-size:.85rem;opacity:.7;margin-top:1rem}
