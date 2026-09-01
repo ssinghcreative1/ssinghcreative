@@ -1,19 +1,22 @@
-SSINGH CREATIVE — PRONTO PER NETLIFY
+SSINGH CREATIVE — SITO NETLIFY
 
-1. Accedi a Netlify.
-2. Vai su Netlify Drop.
-3. Trascina questa cartella nell'area di upload.
-4. Netlify pubblicherà il sito e creerà un indirizzo .netlify.app.
+Struttura:
+- index.html
+- servizi.html
+- portfolio.html
+- come-lavoro.html
+- chi-sono.html
+- contatti.html
+- style.css
+- assets/
 
-Il sito contiene:
-- Home
-- Servizi
-- Portfolio
-- Come lavoro
-- Chi sono
-- Contatti
-- Modulo preventivo Netlify Forms
-- WhatsApp, telefono, email e sito
-- Design responsive per smartphone e PC
+Deploy GitHub -> Netlify:
+1. Collega la repository GitHub a Netlify.
+2. Seleziona la repository ssinghcreative1/ssinghcreative.
+3. Per questo sito statico lascia vuoti Build command e Publish directory (Netlify pubblica la root).
+4. Deploy.
 
-Per gli aggiornamenti puoi trascinare nuovamente la cartella aggiornata nel deploy.
+Il modulo contatti usa Netlify Forms (data-netlify="true").
+Dopo il primo deploy, apri Netlify -> Forms per verificare le richieste e imposta una notifica email verso la tua casella.
+
+Nota: il logo del sito usa assets/logo-clean.png, ottimizzato per header, footer e favicon.
